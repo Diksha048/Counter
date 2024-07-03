@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <div class="container">
+        <img src="./img/perfum.jpg" class="perfum-img" id="perfum-img"/>
+        <h2 class="h2">Chanel Gabrielle Eau De Parfum </h2><br/><br/>
+    </div>
     
+    <div class="img-container">
+        <b class="price"> ₹24,863  &nbsp;&nbsp;</b><b><del>₹29,999</del> </b> &nbsp;&nbsp;<b class="off">-17% off</b><br/>
+         <p class="info">A floral,solar and voluptuous interpretation composed <br/><br/> by olivier polge,perfumer-creator for the house of CHANEL</p><br/>
+        <button class="button"><span> <img src="./img/cart.png" height="20px"/>Add to Cart </span></button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button class="button"><span> <img src="./img/flash.png" height="20px"/>Buy Now</span></button><br/><br/>
+    </div>
+    <div  class="img-slider">
+        <img src="./img/perfum.jpg" class="slider-img" onclick="changeImage('./img/perfum.jpg')"/>
+        <img src="./img/1.jpg" class="slider-img" onclick="changeImage('./img/1.jpg')"/>
+        <img src="./img/3.jpg" class= "slider-img" onclick="changeImage('./img/3.jpg')"/>
+        <img src="./img/2.jpg" class="slider-img" onclick="changeImage('./img/2.jpg')"/>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+/* style.css */
+
+body{
+    background-color: #f9f4eb;
+}
+.container{
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    margin: 40px auto;
+    border: 0px solid black;
+    box-shadow: 0px 4px 4px 0px #e2ca9d;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.perfum-img{
+    height: 500px;
+    border-radius: 20px;
+}
+.h2{
+    margin-top: 40px;
+    margin-left: 50px;
+}
